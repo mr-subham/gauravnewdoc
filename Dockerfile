@@ -7,3 +7,4 @@ RUN apt-get update && apt-get install -y nano curl wget
 COPY server.js .
 CMD ["nodemon", "-L", "server.js"]
 #CMD ["node", "server.js"]
+CMD ["echo","name"]
